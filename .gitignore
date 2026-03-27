@@ -1,0 +1,36 @@
+streaming_dataset/
+clean_dataset/
+
+# Ambiente virtual
+venv/
+.env/
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Configurações locais
+*.env
+.env*
+
+# Arquivos temporários / cache
+*.sqlite3
+*.db
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Distribuição
+build/
+dist/
+*.egg-info/
