@@ -1,5 +1,6 @@
 streaming_dataset/
 clean_dataset/
+models/
 
 # Ambiente virtual
 venv/

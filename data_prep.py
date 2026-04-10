@@ -1,18 +1,6 @@
 from pyspark.sql import SparkSession
-from pyspark.ml.feature import StringIndexer, VectorAssembler, StandardScaler
-from pyspark.ml.regression import RandomForestRegressor
-from pyspark.ml.clustering import KMeans
-from pyspark.ml.stat import Correlation
-from pyspark.sql.functions import col
 from pyspark.sql import SparkSession
 import pyspark.sql.functions as F
-import matplotlib.pyplot as plt
-from pyspark.ml import Pipeline
-import plotly.express as px
-import seaborn as sns
-import pandas as pd
-import numpy as np
-import pyspark
 
 
 
